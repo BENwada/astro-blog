@@ -1,0 +1,21 @@
+---
+import type { MarkdownLayoutProps } from "astro";
+import type { BlogPostFrontmatter } from "@types";
+import { formatDate } from "@utils/formatDate";
+import Base from "./Base.astro";
+
+type Props = MarkdownLayoutProps<BlogPostFrontmatter>;
+
+const { title, date, draft } = Astro.props.frontmatter;
+---
+
+<Base title="blog post">
+  <div class="mb-8">
+    {draft && <p class="bg-red-700 text-white inline-block px-2 mb-4">DRAFT</p>}
+    <h1 class="text-4xl mb-2">{title}</h1>
+    <p>{formatDate(date)}</p>
+  </div>
+  <div class="prose">
+    <slot />
+  </div>
+</Base>
