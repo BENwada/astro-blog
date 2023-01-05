@@ -11,12 +11,23 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@astrojs/image": "^0.12.1",
     "@astrojs/tailwind": "^2.1.3",
+    "@types/node": "^18.11.18",
     "astro": "^1.9.0",
     "sharp": "^0.31.3",
     "tailwindcss": "^3.0.24"
   },
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.8"
-  }
+  },
+  "description": "``` npm create astro@latest -- --template minimal ```",
+  "main": "index.js",
+  "repository": "git+https://github.com/BENwada/astro-blog.git",
+  "author": "BENwada <domo0103wada@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BENwada/astro-blog/issues"
+  },
+  "homepage": "https://github.com/BENwada/astro-blog#readme"
 }
