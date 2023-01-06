@@ -2,6 +2,7 @@
 layout: "../../layouts/BlogPost.astro"
 title: "I need help"
 date: 2023-1-4
+tags: ["Opinion"]
 ---
 
 Letter wooded direct two men indeed income sister. Impression up admiration he by partiality is. Instantly immediate his saw one day perceived. Old blushes respect but offices hearted minutes effects. Written parties winding oh as in without on started. Residence gentleman yet preserved few convinced. Coming regret simple longer little am sister on. Do danger in to adieus ladies houses oh eldest. Gone pure late gay ham. They sigh were not find are rent.

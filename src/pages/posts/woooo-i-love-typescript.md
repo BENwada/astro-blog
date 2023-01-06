@@ -2,6 +2,7 @@
 layout: "../../layouts/BlogPost.astro"
 title: I Love Typescript
 date: 2021-12-8
+tags: ["Typescript", "Opinion"]
 draft: true
 ---
 
